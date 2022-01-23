@@ -19,3 +19,17 @@ function addStyles(node, text) {
     node.textContent = text
     node.style.background = 'red'
 }
+
+underHMenu1.onmouseover = () => {
+    alert('УБЕРИ МЫШ')
+}
+underHMenu2.onmouseover = () => {
+    if (underHMenu2.style.background === 'red') {
+        underHMenu2.style.color = 'white'
+        underHMenu2.style.background = 'black'
+    }
+    else {
+        underHMenu2.style.color = 'black'
+        underHMenu2.style.background = 'red'
+    }
+}
