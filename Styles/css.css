@@ -10,10 +10,14 @@ body {
 	font-family: Garamond;
 	text-rendering: optimizeLegibility;
 }
+.header_back_img {
+	background-image: url(../images/s);
+}
 .header {
 	width: 100%;
 	max-width: 1760px;
 	margin: auto;
+	position: relative; 
 }
 .header_top {
 	background: #f2a144;
@@ -22,7 +26,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: relative; 
 }
 .header_block {
 	width: 150px;
@@ -62,15 +65,7 @@ body {
 	width: 100%;
 	position: absolute;
 	top: 0px;
-	margin: auto;
-	/* display: flex; */
-	/* justify-content: center;
-	align-items: center; */
 }
-/* .slider_menu_content {
-	height: 80%;
-	width: 90%;
-} */
 .slider_menu a img {
 	height: 636px;
 	width: 100%;
